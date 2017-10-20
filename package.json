@@ -1,5 +1,5 @@
 {
-  "name": "worker-loader",
+  "name": "worker-loader-bautista",
   "version": "1.0.0",
   "author": "Tobias Koppers @sokra",
   "description": "worker loader module for webpack",

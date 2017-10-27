@@ -9,7 +9,7 @@ const SingleEntryPlugin = require('webpack/lib/SingleEntryPlugin');
 const schema = require('./options.json');
 
 const getWorker = (file, content, options) => {
-    const publicPath = '/Areas/ProgramQuickView/Web/scripts/';
+    const publicPath = 'Areas/ProgramQuickView/Web/scripts/';
     const workerPublicPath = `"${publicPath}" + ${JSON.stringify(file)}`;
     if (options.inline) {
         const createInlineWorkerPath = JSON.stringify(`!!${path.join(__dirname, 'createInlineWorker.js')}`);
